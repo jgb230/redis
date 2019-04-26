@@ -1,0 +1,7 @@
+# install redis
+make && make test
+sudo make install
+cd utils && ./install_server.sh
+# install ruby and ruby-redis
+sudo apt-get install ruby
+sudo gem install redis
